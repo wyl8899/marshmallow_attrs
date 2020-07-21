@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "marshmallow_attrs"
+version = "0.2.0"
+description = ""
+authors = ["Yilong Wei <yilong@momenta.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+marshmallow = "^3.6.0"
+typing_inspect = "^0.6.0"
+marshmallow_enum = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+ipython = "<6"
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry_core>=1.0.0a8"]
+build-backend = "poetry.core.masonry.api"
+
